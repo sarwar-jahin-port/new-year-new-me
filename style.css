@@ -27,3 +27,86 @@ body{
     color: white;
     font-size: 20px;
 }
+.failures{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: rgb(70, 69, 69);
+}
+h2{
+    font-size: 30px;
+    color: black;
+}
+.plans{
+    margin: 100px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+.plans .plan{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.plans .plan h3{
+    margin-bottom: 0;
+}
+.bottom-banner{
+    position: relative;
+    background-image: url(images/watch.png);
+    background-repeat: no-repeat;
+    background-size: 100;
+    margin-left: 20%;
+    height: 400px;
+}
+.bottom-banner-detail{
+    padding: 100px;
+    color: white;
+}
+.bottom-banner-detail h1{
+    font-size: 30px;
+}
+.bottom-banner-detail button{
+    padding: 20px 30px;
+    color: orangered;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+}
+.gradient-overlay{
+    position: absolute;
+    top: 0;
+    width: 80.5%;
+    height: 75%;
+    border-radius: 10px;
+    background: linear-gradient(to left, #b63b0225, rgba(238, 176, 134, 0.397));
+}
+footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+footer .left h4, footer .right h4{
+    font-size: 20px;
+}
+footer .left p{
+    font-size: 14px;
+}
+footer .right{
+    display: flex;
+    flex-direction: column;
+}
+footer .right input{
+    padding: 10px 30px;
+}
+footer .right button{
+    margin-top: 20px;
+    padding: 15px 30px;
+    width: 150px;
+    cursor: pointer;
+    color: orangered;
+}
